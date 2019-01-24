@@ -1,6 +1,10 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"fmt"
+
+	"github.com/gin-gonic/gin"
+)
 
 func main() {
 	engine := gin.New()
@@ -11,4 +15,6 @@ func main() {
 		context.String(200, "hello1 gin ...")
 	})
 	engine.Run(":8200")
+
+	fmt.Println("fdsafa")
 }
