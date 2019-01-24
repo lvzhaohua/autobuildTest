@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/gin-gonic/gin"
 )
 
@@ -16,5 +14,4 @@ func main() {
 	})
 	engine.Run(":8200")
 
-	fmt.Println("fdsafa")
 }
